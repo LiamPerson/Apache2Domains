@@ -15,4 +15,9 @@ These scripts rely on apache2 to work and must be executed using the super user 
 sudo apt install apache2
 ```
 
+# Notes
+<ul>
+  <li>You may notice you can't immediately run the file when you place it. This is because you don't have the adequate permissions. To fix this, use: <code>chmod +x file.sh</code></li>
+</ul>
+
 <i>Use with caution! <br>I am not responsible if you accidentally register the wrong domain or remove something important!</i>
