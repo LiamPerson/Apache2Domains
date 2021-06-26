@@ -14,3 +14,5 @@ These scripts rely on apache2 to work and must be executed using the super user 
 ```sh
 sudo apt install apache2
 ```
+
+<i>Use with caution! <br>I am not responsible if you accidentally register the wrong domain or remove something important!</i>
