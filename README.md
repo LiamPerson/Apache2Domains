@@ -1,6 +1,8 @@
 # Apache2Domains
 Bash scripts to quickly add and remove domains in an apache2 environment on Debian.
 
+<img src="https://raw.githubusercontent.com/YeloPartyHat/Apache2Domains/main/screenshot.png" alt="Screenshot of the bash script.">
+
 # Usage
 <ol>
   <li>Drag and drop files anywhere onto target machine.</li>
