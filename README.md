@@ -5,7 +5,7 @@ Creates website directory in <code>/var/www</code> writes config, enables site, 
 
 <img src="https://raw.githubusercontent.com/YeloPartyHat/Apache2Domains/main/screenshot.png" alt="Screenshot of the bash script.">
 
-# Usage
+# Installation & Usage
 <ol>
   <li>Put files onto target machine. e.g: <code>wget https://raw.githubusercontent.com/YeloPartyHat/Apache2Domains/main/newdomain.sh && wget https://raw.githubusercontent.com/YeloPartyHat/Apache2Domains/main/removedomain.sh</code></li>
   <li>Navigate to the location you put the files using <code>cd</code></li>
