@@ -1,6 +1,8 @@
 # Apache2Domains
 Bash scripts to quickly add and remove domains in an apache2 environment on Debian.
 
+Creates website directory in <code>/var/www</code> writes config, enables site, and optionally adds <code>index.html</code> file.
+
 <img src="https://raw.githubusercontent.com/YeloPartyHat/Apache2Domains/main/screenshot.png" alt="Screenshot of the bash script.">
 
 # Usage
