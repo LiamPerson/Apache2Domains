@@ -1,7 +1,11 @@
 #!/bin/bash
+
+# settings
+PORT=80
+
 echo What is the website domain\? \(e.g\: example.com\)
 read v_website
-echo -e "Website name will be: $v_website \nIs this correct? [y/n]"
+echo -e "Website name will be: $v_website \nWebsite will use port $PORT\nIs this correct? [y/n]"
 read -n 1 -r -s
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
@@ -11,7 +15,7 @@ then
 	chown -R ${SUDO_USER:-${USER}}:${SUDO_USER:-${USER}} /var/www/$v_website
 	set -o noclobber
 	echo -e "Writing config file to /etc/apache2/sites-available/$v_website.conf ...\n"
-	printf "<VirtualHost *:80>
+	printf "<VirtualHost *:$PORT>
     ServerName $v_website
     ServerAlias www.$v_website
     ServerAdmin webmaster@localhost
