@@ -7,9 +7,9 @@ Creates website directory in <code>/var/www</code> writes config, enables site, 
 
 # Usage
 <ol>
-  <li>Drag and drop files anywhere onto target machine.</li>
-  <li>Navigate to the location you placed the files using <code>cd</code></li>
-  <li>Run files using <code>sudo ./file.sh</code> e.g: <code>sudo ./newdomain.sh</code></li>
+  <li>Put files onto target machine. e.g: <code>wget https://raw.githubusercontent.com/YeloPartyHat/Apache2Domains/main/newdomain.sh && wget https://raw.githubusercontent.com/YeloPartyHat/Apache2Domains/main/removedomain.sh</code></li>
+  <li>Navigate to the location you put the files using <code>cd</code></li>
+  <li>Run files using <code>sudo bash file.sh</code> e.g: <code>sudo bash newdomain.sh</code></li>
   <li>Follow in-console prompts</li>
 </ol>
 
