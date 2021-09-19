@@ -3,6 +3,8 @@ Bash scripts to quickly add and remove domains in an apache2 environment on Debi
 
 Creates website directory in <code>/var/www</code> writes config, enables site, and optionally adds <code>index.html</code> file.
 
+You can edit the port the website will use by editing the <code>PORT=YOUR_PORT</code> variable in the <code>newdomain.sh</code> script.
+
 <img src="https://raw.githubusercontent.com/YeloPartyHat/Apache2Domains/main/screenshot.png" alt="Screenshot of the bash script.">
 
 # Installation & Usage
